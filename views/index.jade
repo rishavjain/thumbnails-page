@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  -
+    var rows = parseInt(config.rows)
+    var cols = parseInt(config.columns)
+    var media = config.media
+  table(id="tiles")
+    - var irow = 0
+    while irow < rows
+      tr
+        - var icol = 0
+        while icol < cols
+          td
+            - var index = irow * cols + icol
+            div(class="thumbnail", id =index)
+            - icol++
+        - irow++
+  video(id="video")
+  div(id="image")
+  script
+    != 'var config = ' + JSON.stringify(config) + ";"

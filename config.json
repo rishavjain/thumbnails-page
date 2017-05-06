@@ -1,0 +1,33 @@
+{
+  "rows": 2,
+  "columns": 2,
+  "square-tiles": true,
+  "margin": 10,
+  "media": [
+    {
+      "file": "1.jpg",
+      "type": "image",
+      "style": "text",
+      "title": "Hindi Manuscript"
+    },
+    {
+      "file": "2.mp4",
+      "type": "video",
+      "style": "content",
+      "title": "Incredible Delhi"
+    },
+    {
+      "file": "2.mp4",
+      "type": "video",
+      "style": "content",
+      "title": "Incredible Delhi",
+      "tmp": "play-thumbnail"
+    },
+    {
+      "file": "1.jpg",
+      "type": "image",
+      "style": "content",
+      "title": "Hindi Manuscript"
+    }
+  ]
+}
